@@ -2,7 +2,7 @@ import 'day_2_string_properties_Basic_Methods_and_logical_operators.dart';
 void main() {
   String text = 'Hello';
   List<int> asciiValues = text.codeUnits;
-  print(asciiValues);
+  print(asciiValues); 
 
   String letter = 'A';
   int asciiValue = letter.codeUnitAt(0); // Get ASCII value of 'A'
