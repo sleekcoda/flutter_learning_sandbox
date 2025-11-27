@@ -16,5 +16,7 @@ void main() {
   var sentence = 'Femi  eats  rice everyday';
   print(sentence.split(''));
   var text =['Femi', 'does' , 'not' , 'eat' , 'rice' , 'everday'];
+  var clock ='12 - oclock - in - the night';
+  print(clock.split('='));
   print(text.join('='));
 }
