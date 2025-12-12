@@ -26,6 +26,6 @@ print(resultEmail);
 String phonenumber1 = '08021228226';
 String firstThree1 =phonenumber1.substring(0,4);
 String lastdigit2 = phonenumber1.substring(phonenumber1.length -2);
-String result1 = firstThree1 +   '******' + lastdigit2;
+String result1 = '$firstThree******$lastdigit2';
 print(result1);   
 }

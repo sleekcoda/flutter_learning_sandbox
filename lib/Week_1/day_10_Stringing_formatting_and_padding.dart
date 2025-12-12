@@ -34,7 +34,7 @@ print(result);
  String formattedNumber3 = formatted.format(number);
  print(formattedNumber); 
 DateTime now = DateTime.now();
-   String formattedDate = DateFormat('d?m?y – hh:mm-a').format(now);
+   String formattedDate = DateFormat('d?m?y - hh:mm-a').format(now);
    print(formattedDate);
 String phoneNumber = 'xxxxxxxxxx';
 String phoneNumberString = phoneNumber.toString();
