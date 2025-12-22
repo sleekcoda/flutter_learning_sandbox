@@ -63,4 +63,8 @@ class Register {
   register.removeWhere((item) => item.serialnumber == '0');
 print(register.length);
 }
+ String capitalisefirstletter(String text) {
+   if (text.isEmpty) return '';
+   return text[0].toUpperCase() + text.substring(1);
+ }
  
